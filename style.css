@@ -23,8 +23,9 @@ section div a {
 }
 
 footer{
-    display: flex;
-    align-items: center;
-    
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    font-weight: 500;
 
 }
