@@ -21,3 +21,10 @@ section div a {
     height: 15px;
 
 }
+
+footer{
+    display: flex;
+    align-items: center;
+    
+
+}
