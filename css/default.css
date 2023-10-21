@@ -59,6 +59,27 @@ header nav a:hover{
     color:#eee;
 }
 
+.carousel-item{
+    background-color: #9e7989;
+    height: 400px;
+    padding-top: 140px;
+    position: relative;
+}
+
+.carousel-item-text{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   
+}
+
+.carousel-indicators [data-bs-target]{
+    width: 10px ;
+    height: 10px ;
+    border-radius: 50%;
+    
+}
 
 
 
