@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Great+Vibes&display=swap');
 
 *{
     margin: 0;
@@ -79,6 +80,77 @@ header nav a:hover{
     height: 10px ;
     border-radius: 50%;
     
+}
+
+h2{
+    font-family: Arvo,sans-serif;
+    color: #eee;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+p {
+    color: #eee;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+
+h4{
+    color: #FBA700;
+    font-family: "Great Vibes", sans-serif;
+    font-size: 40px;
+    padding-top: 80px;
+}
+
+h3{
+    color: #2C1E21;
+    font-family:  Arvo,sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 63px;
+    letter-spacing: 5px;
+}
+
+.texto-principal{
+    color: #575659;
+    font-family: Arvo,sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 35px;
+    margin-top: 0;
+    margin-bottom: 0.9rem;
+}
+
+.encomenda{
+    background-color: white;
+    color: #222;
+    border-color: #FBA700;
+    text-align: center;
+    padding: 10px;
+}
+
+.encomenda:hover{
+    background-color: #ebbd63;
+}
+
+hr{   
+    color: #FBA700;
+}
+
+span{
+    color: #FBA700;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+hr{
+    background-color: #FBA700;
+    border-top: 1px solid #FBA700;
+    
+    
+
 }
 
 
