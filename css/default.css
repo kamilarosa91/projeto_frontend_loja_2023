@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a{
     text-decoration: none;
     color: #222;
@@ -15,6 +16,7 @@ a{
 body{
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
+    
 }
 
 header{
@@ -60,7 +62,7 @@ header nav a:hover{
     color:#eee;
 }
 
-.carousel-item{
+.carousel-item {
     background-color: #9e7989;
     height: 400px;
     padding-top: 140px;
@@ -148,11 +150,63 @@ span{
 hr{
     background-color: #FBA700;
     border-top: 1px solid #FBA700;
-    
-    
+}
+
+/* CONTATO */
+
+.form-contac input[type='text'],
+.form-contac input[type='tel'],
+.form-contac input[type='email'],
+.form-contac textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    background-color: #eee5df;
+    border-radius: 5px;
+    border: 1px solid #ceb989;
+}
+
+
+
+.form-contac button{
+    padding: 5px 20px;
+    border: 2px solid #FBA700;
+    border-radius: 5px;
+    background-color: #fff;
 
 }
 
 
 
+/* Mobile */
+
+@media (max-width:980px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column;
+    }
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    .navbar-toggler-icon{
+        background-image: url(/svg/bars-solid.svg);
+        width: 24px;    
+    }
+
+    .navbar-toggler{
+        border-radius: none;
+        border: none;
+    }
+
+    .navbar-toggler:hover{
+        border-radius: none;
+        border: 1px solid #FBA700;
+    }
+
+}
+
+    
 
